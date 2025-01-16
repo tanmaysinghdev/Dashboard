@@ -1,0 +1,178 @@
+
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+/* Default styles for all devices */
+body {
+    font-size: 16px;
+}
+
+/* Styles for devices with a max width of 600px (e.g., smartphones) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for devices with a min width of 601px and max width of 1200px (e.g., tablets) */
+@media (min-width: 601px) and (max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+#searchlogo{
+    height: 38px;
+    width:  35px;
+    margin-top: 12px;
+    margin-left: 100px;
+}
+#input{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50vw;
+    height: 40px;
+    background-color: #cbd5e1b2;
+    border: 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+#bell{
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+#admin1{
+    height: 45px;
+    width: 45px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+#text1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-weight: bolder;
+
+}
+#admin2{
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#h2{
+    margin-top: 40px;
+}
+#button1{
+    background-color: #0284c7;
+    border-radius: 25px;
+    height: 50px;
+    width: 125px;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    display: block;
+}
+#button2{
+    background-color: #0284c7;
+    border-radius: 25px;
+    height: 50px;
+    width: 125px;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    display: block;
+}
+#dashboard{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color :rgb(65, 164, 230);
+    color: white;
+    display: flex;
+}
+#div{
+    color: white;
+    display: flex; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px; 
+    background-color: rgb(49, 152, 221);
+    gap: 5px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow:0px 0px 2px 2px rgb(0, 0, 0);
+}
+.Project{
+    font-family: Roboto, sans-serif;
+    display: flex;
+}
+
+#project1{
+    box-shadow: 1px 1px 6px 0px #04040487;
+    background: white;
+    border: solid white;
+    border-left-width: 10px;
+    border-radius: 10px;
+    border-left-color: orange;
+    padding: 30px 10px 15px 20px;
+    display: flex;
+    width: 740px;
+    height: 150px;
+    flex-direction: column;
+}
+#Project-heading{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#Project-content{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+#Announcement-container{
+    box-shadow: 1px 1px 6px 0px #04040487;
+    background: white;
+    border: solid white;
+    border-left-width: 10px;
+    border-radius: 10px;
+    display: flex;
+    width: 230px;
+    height: 190px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+#trending{
+    margin-top: 3px;
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#trending-container{
+    box-shadow: 1px 1px 6px 0px #04040487;
+    background: white;
+    border: solid white;
+    border-left-width: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 230px;
+    height: 190px;
+    margin-left: 60px;
+}
+#div3{
+    display: block;
+}
